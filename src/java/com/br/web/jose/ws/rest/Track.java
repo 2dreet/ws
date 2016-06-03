@@ -1,5 +1,8 @@
 package com.br.web.jose.ws.rest;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Track {
 
 	String title;
